@@ -36,13 +36,13 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://apps.karthikkoppaka.com/calculator/",
   "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
       "not op_mini all"
     ],
-    "homepage": "./",
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
