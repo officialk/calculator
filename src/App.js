@@ -102,6 +102,7 @@ function App() {
             onClick={() => {
               document.getElementById("display").innerText = "";
               document.getElementById("answer").innerText = "";
+              setDisplay("");
             }}
           >
             <Typography variant="h4" align="center">
@@ -114,9 +115,7 @@ function App() {
             variant="contained"
             style={{ height: "10vh" }}
             onClick={() => {
-              document.getElementById(
-                "display"
-              ).innerText = document.getElementById("answer").innerText;
+              setDisplay(document.getElementById("answer").innerText);
               document.getElementById("answer").innerText = "";
             }}
           >
